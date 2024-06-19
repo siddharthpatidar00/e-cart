@@ -1,0 +1,41 @@
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: large;
+  text-align: center;
+  justify-content: space-around;
+}
+
+.shopping-cart {
+  /* margin-top: 5px; */
+  justify-content: space-between;
+  /* padding: 5px 35px; */
+  background-color: rgb(143, 216, 245);
+  display: flex;
+  font-weight: 600;
+  padding: 12px 20px;
+  margin: 12px;
+
+}
+
+.shopping-cart :hover {
+  cursor: pointer;
+  color: gray;
+}
+
+
+
+.cart{
+  padding: 12px;
+  margin-top: 22px;
+  /* position: relative; */
+  text-align: center;
+}
+
+
+.btn-class-01{
+  background-color: rgb(65, 63, 63);
+  color: wheat;
+  border-radius: 12px;
+  cursor: pointer;
+}
